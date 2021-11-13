@@ -1,0 +1,35 @@
+.header{
+    &-main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0;
+    }
+    &-logo{
+        display: flex;
+        align-items: center;
+        gap: 0 16px;
+        span{
+            font-size: 22px;
+            font-family: $third-font;
+            font-weight: 600;
+            color: #222831;
+        }
+    }
+    .navigation{
+        display: flex;
+        align-items: center;
+        gap: 0 70px;
+        .icon-search,
+        .icon-menu{
+            cursor: pointer;
+        }
+    }
+    &-phone{
+        font-weight: 300;
+        span{
+            color: $gray;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.contact{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url('/image/contact.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &-header{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    &-heading{
+        font-size: 36px;
+        line-height: calc(56 / 36);
+        font-weight: 400;
+        font-family: $secondary-font;
+        color: #fff;
+        margin-bottom: 30px;
+        span{
+            font-weight: 700;
+        }
+    }
+    &-desc{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: calc(34 / 18);
+        max-width: 570px;
+        margin: 0 auto;
+        color: #fff;
+    }
+    &-form{
+        max-width: 570px;
+        margin: 0 auto;
+    }
+    &-input{
+        width: 100%;
+        padding: 20px 30px;
+        background: transparent;
+        border-color: rgba($color: #fff, $alpha: 0.4);
+        outline: none;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        color: #fff;
+        transition: border 0.2s linear;
+        &::placeholder{
+            color: #fff;
+        }
+        &:focus{
+            border-color: #fff;
+        }
+    }
+    &-area{
+        min-height: 100px;
+    }
+}
